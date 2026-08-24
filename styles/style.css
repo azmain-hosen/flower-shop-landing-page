@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 /* Font Style */
 .lato-regular {
     font-family: "Lato", sans-serif;
@@ -10,28 +16,30 @@ header {
     background-color: rgba(229, 84, 115, 0.1);
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     width: 100%;
 }
 
 .header-left-side {
     width: 40%;
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
     align-items: center;
     justify-content: center;
+    margin-left: 150px;
 }
 
 .header-headline {
     width: 60%;
     font-weight: 800;
     font-size: 3.5rem;
+    margin-bottom: 10px;
 }
 
 .header-description {
     width: 50%;
     font-size: 1.2rem;
     font-weight: 400;
+    margin-bottom: 10px;
 }
 
 .header-btn {
